@@ -12,6 +12,6 @@ print("Views ", yt.views)
 print("Descrição ", yt.description)
 
 yDownload = yt.streams.get_highest_resolution() 
-pc_path=input("Para onde queres que o video seja mandado? ")
+pc_path=input("Where to send the video?\n")
 yDownload.download(f"{pc_path}")
 
